@@ -1,0 +1,29 @@
+{
+  "name": "study_node",
+  "version": "1.0.0",
+  "description": "study node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afterup/study_Node.js.git"
+  },
+  "author": "fora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afterup/study_Node.js/issues"
+  },
+  "homepage": "https://github.com/afterup/study_Node.js#readme",
+  "dependencies": {
+    "cookie-parse": "^0.4.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "morgan": "^1.9.1",
+    "rimraf": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
