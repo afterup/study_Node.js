@@ -27,7 +27,7 @@ router.get('/', (req,res,next)=>{
     .then((posts)=>{
         res.render('main',{
             title: 'NodeBird',
-            twits: [],
+            twits: posts,
             user: req.user,
             loginError: req.flash('loginError'),
         });
